@@ -1,6 +1,5 @@
-# Individual Project Assignment 2
-## John DeLeo
-## CS534
+# Romania Map Path Finder
+# An agent built with python that will attempt to find the shortest path along roads between two Romanian cities.
 
 ### Necessary Files
 - `README.md` - This file
@@ -14,7 +13,6 @@
 - `CalcAllDistances.py` - A script to calculate the distances between cities and write them to `CalculatedDistances.txt`
 
 ### Running the Application
-
 - Run `RomaniaCityApp.py` to start the application
     Example in terminal: `python3 RomaniaCityApp.py`
 
@@ -71,7 +69,7 @@
 ```
 
 ### Notes
-- The precision of the simulated annealing search can be changed by manipulating the `number_of_iterations` variable in the `SimulatedAnnealingSearch` method in `RomaniaCityApp.py`. By default, it is set to 10 iterations. The precision can also be changed by manipulating the `temperature` variable in the `SimulatedAnnealingSearch` method in `RomaniaCityApp.py`. By default, it is set to 1000.
+- The precision of the simulated annealing search can be changed by manipulating the `number_of_iterations` variable in the `SimulatedAnnealingSearch` method in `RomaniaCityApp.py`. By default, it is set to 10 iterations. The precision can also be changed by manipulating the `temperature` variable in the `SimulatedAnnealingSearch` method in `RomaniaCityApp.py`. By default, it is set to 100. Under current implementation, there is a possibility of returning INF path length when using lower iteration counts or higher starting temperatures.
 
 
 
